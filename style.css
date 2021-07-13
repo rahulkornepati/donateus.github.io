@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+#bg {
+	height: 100%;
+	background: url('https://help.unicef.org/sites/default/files/styles/hero_image/public/2017-12/Hurricane-Matthew_form3_0.jpeg?itok=fG5NiAdo');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text {
+	justify-content: left;
+	margin: 30px;
+	font-size: 20px;
+	color: #9de9fa;
+	width: 50%;
+	margin-left: -10px;
+	 font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;;
+}
+nav {
+	width: 100%;
+	background: rgb(15, 15, 15,0.5);
+	position: fixed;
+	top: 0;
+	height: 70px;
+}
+nav > h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: lightgrey;
+	    padding-top: -40px;
+	font-size: 35px;
+}
+footer {
+	width: 100%;
+	background: rgba(15, 15, 15, 1.0);
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-family: 'Arial Narrow Bold', sans-serif;
+}
+footer > p {
+	color: white;
+	margin: 0px;
+}
